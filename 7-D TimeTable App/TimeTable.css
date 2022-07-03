@@ -1,0 +1,27 @@
+table {
+    /*border-spacing: 40px;*/
+    margin-left: 100px;
+    margin-top: 100px;
+}
+th { 
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+table, th, td {
+    border: 1px relative ;
+    border-collapse: collapse;
+}
+th,td {
+    padding: 10px;
+    padding-left: 85px;
+    padding-right: 100px;
+font-family: 'Viga', sans-serif;
+}
+tr:nth-last-child(even) {
+    background-color: #f6b93b;
+}
+tr:nth-last-child(odd) {
+    background-color: #fad390;
+}
